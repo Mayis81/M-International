@@ -1,0 +1,10 @@
+.full-screen__text {
+    z-index: 1;
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0 2px 0 2px;
+    /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+  }

@@ -1,0 +1,33 @@
+.item__footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 20px 0;
+  }
+
+  .item__footer-telegram, .item__footer-whatsapp, .item__button-close {
+    text-decoration: none;
+    color: white;
+  }
+  .item__footer-btnTelegram {
+    background-color: #4d67ff;
+  }
+  
+  .item__footer-btnWhatsapp {
+    background-color: #00c3ca;
+  }
+  .item__button-close {
+    background-color: #5cf84d;
+  }
+  
+  .item__button-close:hover {
+    cursor: pointer;
+  }
+  
+  .item__footer-btnTelegram, .item__footer-btnWhatsapp, .item__button-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 30px;
+  }
