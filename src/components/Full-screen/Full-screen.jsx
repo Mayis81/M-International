@@ -1,6 +1,6 @@
 import  React  from 'react';
 import "./fullScreen.css"
-import Video from '../Video/Video';
+import Video from './../Video/Video';
 import Button from '../Button/Button';
 import FullScreenTitle from '../fullScreenTitle.css/FullScreenTitle';
 import FullScreenText from '../fullScreenText/FullScreenText';
@@ -21,7 +21,7 @@ export default function FullScreen() {
           </div>
         </div>
 
-        <Video link = "video/welcome4.webm" type = "video/webm"/>
+        <Video link = "./../Video/welcome4.webm" type = "video/webm"/>
 
       </div>
     )
